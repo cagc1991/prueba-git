@@ -1,0 +1,125 @@
+body {
+    padding-top: 70px;
+    font-size: 12px;
+    font: normal small "Trebuchet MS";
+    color: #222222;
+}
+
+.dl-horizontal dt {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dl-horizontal dd {
+    margin-left: 180px;
+}
+
+.estadocortado {
+    font-family: arial black;
+    font-weight: bold;
+    color: #FF0000;
+}
+.estadobcortado {
+    color: #FF0000;
+}
+
+.estadoactivo {
+    font-family: arial black;
+    font-weight: bold;
+    color: #008800;
+}
+.estadobactivo {
+    color: #008800;
+}
+
+.estadobnormal {
+    color: #008800;
+}
+
+.estadoinstalacion {
+    font-family: arial black;
+    font-weight: bold;
+    color: #BBBB00;
+}
+
+.estadobinstalacion {
+    color: #BBBB00;
+}
+
+.readonly {
+    background-color: #ECE9D8;
+}
+
+legend {
+    margin-bottom: 5px;
+}
+
+.botones {
+    margin-bottom: 10px;
+}
+
+ul.errors {
+    color: #ff0000;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+/*.nav-texto {
+  display: none;
+}*/
+@media (min-width: 1260px) {
+    .nav-texto {
+      display: initial;
+    }
+}
+
+.contenedor
+{
+    display:table;
+    width: 100%;
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebar {
+    display:table-cell;
+    width: 13%;
+    padding-right: 10px;
+}
+
+.principal {
+    padding-left: 10px;
+    display:table-cell;
+}
+
+@media print {
+    .sidebar {
+      display: none;
+    }
+    .botones {
+      display: none;
+    }
+    #tiemporespuesta {
+      display: none;
+    }
+}
+
+.dropdown-scroll {
+    height: auto;
+    max-height: 550px;
+    overflow-x: hidden;
+}
+
+.alert {
+  margin-bottom: 0px;
+}
